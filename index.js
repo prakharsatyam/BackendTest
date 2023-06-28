@@ -11,7 +11,7 @@ app.get("/api/insta",(req,res) =>{
         user : "Park",
         followers : 56,
         following : 43,
-        d : date('dd:MM:', new Date()),
+        d : date('dd:MM:yyyy', new Date()),
     };
     res.status(200).json(insta)
 })
