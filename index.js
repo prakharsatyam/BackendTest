@@ -3,7 +3,7 @@ const app = express()
 const PORT = 4000;
 date = require("date-format")
 app.get("/",(req,res) =>{
-    res.send("hello")})
+    res.send("<h1> WE HERE</h1>")})
 
 
 app.get("/api/insta",(req,res) =>{
